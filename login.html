@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/login_cs.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css" integrity="sha512-UuQ/zJlbMVAw/UU8vVBhnI4op+/tFOpQZVT+FormmIEhRSCnJWyHiBbEVgM4Uztsht41f3FzVWgLuwzUqOObKw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <div class="hero">
+        <nav>
+            <h2 class="logo">Port<span>Folio</span></h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Works</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <button type="button">LOGIN</button>
+        </nav>
+    
+        <div class="main">
+            <h1>Hello</h1>
+            <hr>
+            <p>I specialise in designing responsive, secure and fully customised <br> websites using simple and intuitive content management system.</p>
+        </div>
+
+      
+    </div>
+
+    
+    <div class="grid-container">
+        <div class="grid-item"><img src="https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/06/667c3b6b49a25507086595.png" alt=""></div>
+        <div class="grid-item"><img src="https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/06/66721dd8bb05e695975577.png" alt=""></div>
+        <div class="grid-item"><img src="https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/04/662a416e91912160260251.png" alt=""></div>
+        <div class="grid-item"><img src="https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/06/666d76c9ec038197038364.png" alt=""></div>
+        <div class="grid-item"><img src="https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/06/66620b30aeccf560678897.png" alt=""></div>
+        <div class="grid-item"><img src="https://assets.awwwards.com/awards/media/cache/thumb_440_330/submissions/2024/05/66550d4224b0d596804020.png" alt=""></div>
+    </div>
+
+    <div class="elios">
+        <div class="lg-wrapper">
+            <form name="regForm" id="lg-regForm">
+                <h1 class="adios">Login</h1>
+                <div class="lg-input-box">
+                    <input type="text" id="lg-username" name="username" placeholder="Username" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <span id="username-error" class="lg-error-message"></span>
+                
+                <div class="lg-input-box">
+                    <input type="password" id="lg-password" name="password" placeholder="Password" required>
+                    <i class='bx bx-lock'></i>
+                </div>
+                <span id="password-error" class="lg-error-message"></span>
+                
+                <div class="lg-input-box">
+                    <input type="password" id="lg-cpassword" name="cpassword" placeholder="Confirm Password" required>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <span id="cpassword-error" class="lg-error-message"></span>
+                
+                <div class="lg-input-box">
+                    <input type="email" id="lg-email" name="email" placeholder="E-mail" required>
+                    <i class='bx bxs-envelope'></i>
+                </div>
+                <span id="email-error" class="lg-error-message"></span>
+                
+                <div class="lg-input-box">
+                    <input type="tel" id="lg-phonenum" name="phonenum" placeholder="Phone number" required>
+                    <i class='bx bxs-phone'></i>
+                </div>
+                <span id="phonenum-error" class="lg-error-message"></span>
+                
+                <div class="lg-remember-forgot">
+                    <label><input type="checkbox">Remember Me</label>
+                    <a href="#">Forgot Password</a>
+                </div>
+                <button type="submit" class="lg-btn">Login</button>
+                <div class="lg-register-link">
+                    <p>Don't have an account? <a href="#">Register</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="/public/js/login_js.js"></script>
+</body>
+</html>
